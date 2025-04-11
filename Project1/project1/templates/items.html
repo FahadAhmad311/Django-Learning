@@ -1,0 +1,7 @@
+<h1>Menu Items</h1>
+<p>Available Dishes:</p>
+
+{% for item in dishes %}
+    <p><strong>Dish:</strong> {{ item.dish }}</p>
+    <p><strong>Sauce:</strong> {{ item.sauce }}</p>
+{% endfor %}
